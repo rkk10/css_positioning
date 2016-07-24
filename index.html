@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.min.css">
+    <title>css position</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .box {
+            height: 500px;
+            width: 500px;
+            background-color: aquamarine;
+            margin: 1px;
+        }
+        
+        .firstchild {
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+        }
+        
+        .position-relative {
+            position: relative;
+        }
+        
+        .absolute {
+            position: absolute;
+        }
+        
+        .fixed {
+            position: fixed;
+        }
+        
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .firstchild {
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+        }
+        
+        .lastchild {
+            height: 100px;
+            width: 100px;
+            background-color: maroon;
+        }
+        
+        .flex-non {
+            display: block;
+        }
+        
+        .smallbox {
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;
+            float: left;
+            margin: 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box ">
+            <div class="firstchild"></div>
+            <!--        <div class="lastchild absolute"></div>-->
+        </div>
+    </section>
+    <section class="flex-non">
+        <div class="smallbox">1</div>
+        <div class="smallbox">2</div>
+        <div class="smallbox">3</div>
+        <div class="smallbox">4</div>
+        <div class="smallbox">5</div>
+        <div class="smallbox">1</div>
+        <div class="smallbox">2</div>
+        <div class="smallbox">3</div>
+        <div class="smallbox">4</div>
+        <div class="smallbox">5</div>
+        <div class="smallbox">1</div>
+        <div class="smallbox">2</div>
+        <div class="smallbox">3</div>
+        <div class="smallbox">4</div>
+        <div class="smallbox">5</div>
+        <div class="smallbox">1</div>
+        <div class="smallbox">2</div>
+        <div class="smallbox">3</div>
+        <div class="smallbox">4</div>
+        <div class="smallbox">5</div>
+        <div class="smallbox">1</div>
+        <div class="smallbox">2</div>
+        <div class="smallbox">3</div>
+        <div class="smallbox">4</div>
+        <div class="smallbox">5</div>
+    </section>
+</body>
+
+</html>

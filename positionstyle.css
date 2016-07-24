@@ -1,0 +1,92 @@
+/* line 1, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* line 5, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section {
+    height: 100vh;
+    width: 98vw;
+    background-color: whitesmoke;
+}
+
+
+/* line 9, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section .first {
+    width: 100%;
+    height: 70%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: colomn;
+    -ms-flex-direction: colomn;
+    flex-direction: colomn;
+}
+
+
+/* line 14, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section .first .first-child {
+    margin: 2px;
+    height: 99%;
+    width: 50%;
+    background-color: #BFBFBF;
+}
+
+
+/* line 19, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section .first .second-child {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+/* line 24, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section .first .second-child .divs {
+    margin: 2px;
+    height: 49%;
+    width: 49%;
+    background-color: gray;
+}
+
+
+/* line 30, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section .second {
+    width: 100%;
+    height: 30%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+/* line 35, C:/Users/Ravindra/Documents/GitHub/css_positioning/positionstyle.sass */
+
+section .second .childs {
+    width: 24.59%;
+    height: 100%;
+    background-color: gray;
+    margin: 2px;
+}
